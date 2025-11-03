@@ -47,5 +47,5 @@ srun -l \
             bench/test_intranode.py \
                 --num-tokens 4096 \
                 --hidden 7168 \
-                --num-topk 8 \  
+                --num-topk 8 \
                 --num-experts 256
